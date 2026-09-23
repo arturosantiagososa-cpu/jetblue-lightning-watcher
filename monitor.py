@@ -16,7 +16,7 @@ URL = "https://oas.earthnetworks.com/widget/ResOASWidget.html?widgetId=2d51b0d2-
 TZ = ZoneInfo("America/New_York")
 DAYS = (0, 2)            # Monday=0, Wednesday=2
 START = (15, 0)          # 3:00 PM
-END = (18, 30)           # 6:30 PM
+END = (19, 30)           # 7:30 PM
 INTERVAL = 60            # seconds between checks
 
 TOPIC = os.environ["NTFY_TOPIC"]
